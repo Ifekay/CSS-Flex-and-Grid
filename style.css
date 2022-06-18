@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+ body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+ }
+ .head{
+     text-align: center;
+ }
+
+.flex{
+    padding-top:50px;
+    display:flex;
+   color: #fff;
+   width: 60%;
+    margin:  0 auto;
+   height: 100%;
+}
+
+.flex-one{
+    background-color:  hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn-one:hover{
+    background-color:  hsl(31, 77%, 52%);
+    color: #fff;
+}
+.btn-one{
+    color:  hsl(31, 77%, 52%);
+}
+
+.flex-two{
+    background-color: hsl(184, 100%, 22%);
+}
+.btn-two{
+    color: hsl(184, 100%, 22%);  
+}
+.btn-two:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+}
+.flex-three{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn-three{
+    color: hsl(179, 100%, 13%); 
+}
+.btn-three:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
+
+  h1{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+main p{
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+a{
+ text-decoration: none;
+ color: rgb(20, 20, 230);
+
+}
+ a:hover{
+    border-bottom: 2px solid blue;
+   
+}
+.btn{
+      padding:5px 20px; 
+    border-radius:50px;
+    font-size: 16px;
+    border: white 2px solid;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 4rem;
+}
+ .container{
+    margin: 3rem;
+} 
+
+.container h1{
+    margin:2rem 0;
+}
+
+@media screen and (max-width:500px) {
+    .flex{
+        flex-direction: column;
+    }
+    .head {
+        font-size: 16px;
+    }
+    
+}
