@@ -9,8 +9,9 @@ body{
 .container{
     margin: 0 auto;
     width: 80%;
+    margin: auto;
     margin-top: 5vh;
-    
+     
 }
 a{
     text-decoration: none;
@@ -30,13 +31,14 @@ a{
     grid-template-rows: repeat(2,1fr);  
     grid-template-areas:      
     "a a a a b b"
+    "a a a a b b"
     "c c c d d d"
-    "c c c e e e";
+    "c c c e e e"; 
     gap: 10px;
 }
 
 main div{
-    padding: 30px;
+    padding: 80px;
 }
 
 .item-one{
